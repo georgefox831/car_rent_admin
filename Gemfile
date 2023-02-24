@@ -43,7 +43,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -70,3 +70,18 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# gem 'remotipart', '~> 1.4', '>= 1.4.4'
+# gem 'rails_admin', '~> 3.1', '>= 3.1.1'
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', github: 'sferik/rails_admin'
+
+gem 'rails_admin_rollincode', '~> 1.4'
+gem 'devise', '~> 4.9'
+gem "cssbundling-rails"
+gem "cssbundling-rails"
+gem "cssbundling-rails"
+gem "sassc-rails"
+gem "sassc-rails"
+gem "cssbundling-rails"
+gem "cssbundling-rails"
