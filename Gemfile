@@ -79,9 +79,4 @@ gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'rails_admin_rollincode', '~> 1.4'
 gem 'devise', '~> 4.9'
 gem "cssbundling-rails"
-gem "cssbundling-rails"
-gem "cssbundling-rails"
 gem "sassc-rails"
-gem "sassc-rails"
-gem "cssbundling-rails"
-gem "cssbundling-rails"

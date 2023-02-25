@@ -1,3 +1,3 @@
 class Claim < ApplicationRecord
-    belongs_to :rent
+    has_one :rent
 end

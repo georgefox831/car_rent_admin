@@ -1,3 +1,3 @@
 class Client < ApplicationRecord
-    belongs_to :rent
+    belongs_to :rent, optional: true
 end
