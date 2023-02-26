@@ -20,8 +20,8 @@ default: &default
 development:
   <<: *default
   database: car_rent_admin
-  username: root
-  password: password
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
 
 
 # Warning: The database defined as "test" will be erased and
