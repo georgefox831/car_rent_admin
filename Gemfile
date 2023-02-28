@@ -87,3 +87,10 @@ gem 'brakeman', '~> 5.4', '>= 5.4.1'
 
 gem 'geocoder', '~> 1.8', '>= 1.8.1'
 gem 'rubocop', require: false
+gem 'slack-notifier', '~> 2.4'
+gem 'whenever', require: false
+gem 'chartkick', '~> 5.0', '>= 5.0.1'
+gem 'groupdate', '~> 6.2'
+
+gem 'rack-attack'
+gem 'awesome_print', '~> 1.9', '>= 1.9.2'
